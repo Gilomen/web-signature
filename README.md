@@ -9,4 +9,4 @@ The HTML file itself contains titles, text and images in a simple table with 2 c
 
 ### JAVASCRIPT
 
-The JavaScript file contains the same information as the HTML and CSS file, but in JavaScript.
+The second Version of the web-signature is written in JavaScript, and contains the same information as the HTML and CSS file. The JavaScript code can be found in a <script> container in an HTML file.
