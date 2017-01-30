@@ -10,4 +10,4 @@ The problem with having 2 documents is that the information in the stylesheet mi
 
 ### JAVASCRIPT
 
-The second Version of the web-signature is written in JavaScript, and contains the same information as the HTML and CSS file. The JavaScript code can be found in a <script> container in an HTML file.
+The second Version of the web-signature is written in JavaScript, and contains the same information as the HTML and CSS file. The JavaScript code can be found in a script container in an HTML file.
