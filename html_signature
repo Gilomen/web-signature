@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/> 
+<meta name="description" content="my first document"/>
+<link type="text/css" rel="stylesheet" href="./mon-style.css"/>
+<title>Signature</title>
+</head>
+
+<body>
+
+<div>
+<table>
+<tr>
+
+<th>
+<img src="./image_signature.jpg"/>
+</th>
+
+<th>
+<div id="contact">
+<h2>Bettina Gilomen</h2>
+<h3>Web developer</h3>
+<p><img src="./image_telephone.png" height="15em"/>+33 (0)6 28 05 69 67</p>
+<a href="mailto:bettina.gilomen@gmail.com">bettina.gilomen@gmail.com</a>
+</div>
+</th>
+
+</tr>
+</table>
+</div>
+
+</body>
+</html>
