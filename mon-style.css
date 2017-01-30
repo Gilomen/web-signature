@@ -1,0 +1,30 @@
+/*attribut title*/
+div{
+	font-family: lucida sans unicode;
+	text-align: left;
+	
+	
+	
+	
+	
+}
+h2{
+	color: #0099cc;
+	padding: 0;
+	margin: .25em 0;
+}
+h3{
+	padding: 0;
+	margin: .25em 0 1.5em;
+}
+#contact{
+	margin: 0em 1em;
+}
+p{
+	font-size: .8em;
+	margin: 1em 0 .25em;
+}
+a{
+	color: #4dd2ff;
+	font-size: .8em;
+}
