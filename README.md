@@ -6,6 +6,7 @@ This web-signature has 2 versions, one in HTML and CSS, one in JAVASCRIPT, to sh
 
 The HTML file html_signature contains a link to a CSS file mon_style, defining font, font-size, color, text alignment, padding and margins.
 The HTML file itself contains titles, text and images in a simple table with 2 columns and 1 row.
+The problem with having 2 documents is that the information in the stylesheet might get lost when copying the html code into an email signature.
 
 ### JAVASCRIPT
 
