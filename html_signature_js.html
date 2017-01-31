@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Signature web en JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+            div{
+	font-family: lucida sans unicode;
+	text-align: left;
+}
+h2{
+	color: #0099cc;
+	padding: 0;
+	margin: .25em 0;
+}
+h3{
+	padding: 0;
+	margin: .25em 0 1.5em;
+}
+#contact{
+	margin: 0em 1em;
+}
+p{
+	font-size: .8em;
+	margin: 1em 0 .25em;
+}
+a{
+	color: #4dd2ff;
+	font-size: .8em;
+}
+        </style>
+        <script>    
+        var div1=document.createElement("div");
+        var table=document.createElement("table");
+        var tr=document.createElement("tr");
+        var th1=document.createElement("th");
+        var img1=document.createElement("img");
+        img1.setAttribute("src","./image_signature.jpg");
+        var th2=document.createElement("th");
+        var div2=document.createElement("div");
+        var h2=document.createElement("h2");
+        var h3=document.createElement("h3");
+        var p=document.createElement("p");
+        var img2=document.createElement("img");
+        img2.setAttribute("src","./image_telephone.png");
+        img2.style.height = "1em";
+        var a=document.createElement("a");
+
+        var txth2=document.createTextNode("Bettina Gilomen");
+        var txth3=document.createTextNode("Web developer");
+        var txtp=document.createTextNode("+33 (0)6 28 05 69 67");
+        var txta=document.createTextNode("bettina.gilomen@gmail.com");
+//        
+        div1.appendChild(table);
+        table.appendChild(tr);
+        tr.appendChild(th1);
+        tr.appendChild(th2);
+        th1.appendChild(img1);
+        th2.appendChild(div2);
+        div2.appendChild(h2);
+        div2.appendChild(h3);
+        div2.appendChild(p);
+        div2.appendChild(a);
+        h2.appendChild(txth2);
+        h3.appendChild(txth3);
+        p.appendChild(img2);
+        p.appendChild(txtp);
+        a.appendChild(txta);
+//        
+//        
+        document.body.appendChild(div1);
+        
+        </script>
+        
+        
+<!--<div>
+    <table>
+        <tr>
+            <th>
+                <img src="./image_signature.jpg"/>
+            </th>
+            <th>
+                <div id="contact">
+                    <h2>Bettina Gilomen</h2>
+                    <h3>Web developer</h3>
+                    <p><img src="./image_telephone.png" height="15em"/>+33 (0)6 28 05 69 67</p>
+                    <a href="mailto:bettina.gilomen@gmail.com">bettina.gilomen@gmail.com</a>
+                </div>
+            </th>
+        </tr>
+    </table>
+</div>-->
+        
+</body>
+</html>
